@@ -1,0 +1,123 @@
+.container.footer-padding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: var(--dark-bg);
+}
+
+.footer .logo {
+    display: inline-block;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--accent-cl);
+    text-decoration: none;
+}
+
+.footer .logo-text {
+    color: var(--white);
+}
+
+.footer .address {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.footer .map {
+    color: var(--white);
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+}
+
+.footer-icon p {
+    display: flex;
+    margin-bottom: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.footer-icon {
+    margin-left: 70px;
+}
+
+.footer .link {
+    width: 20%;
+    display: block;
+    margin-top: 9px;
+    color: var(--gray);
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.footer-social-icons {
+    display: flex;
+    padding: 0 0;
+}
+
+.footer-social-icons-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.footer-social-icons-svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--white);
+}
+
+.footer-social-icons-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footer-social-icons-link:hover .social-icons-svg,
+.footer-social-icons-link:focus .social-icons-svg {
+    fill: var(--white);
+}
+
+.footer-social-icons-link:hover,
+.footer-social-icons-link:focus {
+    background-color: var(--accent-cl);
+}
+
+.footer-button {
+	display: inline-flex;
+	align-items: center;
+    width: 200px;
+    font-family: Roboto;
+	height: 50px;
+	padding-top: 10px;
+	padding-right: 28px;
+	padding-bottom: 10px;
+	padding-left: 29px;
+	background: var(--accent-cl);
+	border-color: var(--accent-cl);
+	color: var(--white);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	border: 0;
+	cursor: pointer;
+}
