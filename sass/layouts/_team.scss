@@ -1,0 +1,60 @@
+.container.team-padding {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.team.margin {
+    margin-top: 94px;
+}
+
+.team {
+    background: var(--bg);
+}
+
+.team .team-list {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.team-list > .list-description {
+    padding-bottom: 30px;
+    background: var(--primary-bg);
+    box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024,
+    0px 2px 1px #00000033;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-list .list-description:not(:last-child) {
+    margin-right: 30px;
+}
+
+.team .title {
+    color: var(--black);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.team .name {
+    margin-top: 30px;
+    color: var(--black);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2x;
+    text-align: center;
+}
+
+.team .position {
+    margin-top: 10px;
+    color: var(--main-text-cl);
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2x;
+    text-align: center;
+}

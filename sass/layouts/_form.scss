@@ -1,0 +1,32 @@
+.join-box {
+    font-family: Roboto;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	color: var(--white);
+}
+
+.mail-form {
+    width: 356px;
+    font-family: Roboto;
+	height: 50px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+	border-radius: 4px;
+    background-color: var(--dark-bg);
+    color: var(--white);
+	padding-left: 16px;
+	margin-right: 12px;
+}
+
+.icon-send-svg {
+	fill: var(--white);
+	margin-left: 10px;
+}
+
+.js-speaker-form{
+    display: flex;
+}

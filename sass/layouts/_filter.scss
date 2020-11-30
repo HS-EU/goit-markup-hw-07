@@ -1,0 +1,38 @@
+.portfolio .filter {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio .filter-items:not(:last-child) {
+    margin-right: 8px;
+}
+
+.container.portfolio-padding {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.filter .link-filter {
+    padding: 6px 22px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: var(--black);
+    background: var(--bg);
+    border-radius: 4px;
+    border: 0;
+        outline: none;
+    transition-property: background-color, color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filter .link-filter:hover,
+.link-filter:focus {
+    background: var(--accent-cl);
+    color: var(--white);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}

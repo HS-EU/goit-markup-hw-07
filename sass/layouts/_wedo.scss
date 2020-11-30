@@ -43,3 +43,7 @@
     background-color: rgba(47, 48, 58, 0.8);
     color: var(--white);
 }
+.wedo .item-img:hover,
+.wedo .item-img:focus {
+    background-color: var(--accent-cl);
+}
