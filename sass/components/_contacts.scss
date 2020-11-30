@@ -1,0 +1,12 @@
+.contacts .contacts-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.contacts .address-link{
+    display: flex;
+    align-items: center;
+}
+
+.link-icons {
+    margin-right: 10px;
+}

@@ -1,0 +1,22 @@
+.header .menu {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.menu .menu-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.header .address-link {
+    fill: var(--main-text-cl);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: var(--main-text-cl);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}

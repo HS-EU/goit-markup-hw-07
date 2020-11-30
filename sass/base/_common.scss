@@ -1,0 +1,47 @@
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--black);
+    background-color: var(--primary-bg);
+    letter-spacing: 0.03em;
+}
+
+div, ul, li, p, form, b, button, a, input, textarea, img {
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+input, textarea {
+    outline: none;
+}
+
+label {
+    margin: 0;
+}
+
+a, a:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container.align-center {
+    text-align: center;
+}
