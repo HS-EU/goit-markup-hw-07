@@ -769,6 +769,10 @@ fill: var(--accent-cl);
     border-color: var(--accent-cl);
 }
 
+.hidden-modal {
+    display: none;
+}
+
 .modal-content-check .link {
     margin-left: 4px;
     color: var(--accent-cl);
